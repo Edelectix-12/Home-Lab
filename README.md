@@ -27,7 +27,7 @@ Purpose:
 Project Roadmap
 -
 
-Phase 1 - Linux Iniciatio
+Phase 1 - Linux Iniciations
 
 - Install Ubuntu Server
 - Configure networking
