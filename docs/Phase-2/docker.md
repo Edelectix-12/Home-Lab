@@ -2,7 +2,7 @@
 
 I'm going to start just installing the ```docker.io``` package with it's dependencies with   the command
 
-```sudo apt install docker.io```
+```sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin```
 
 The following steps will be, check the current version, set on the service and verify if it can do a hello-world with no problems
 
@@ -25,4 +25,4 @@ Now we can verify if it can runs a simple hello-world:
 
 We can see that if it doesn't find the image, it can search in the web to find it like in this example.
 
-If we don't have 0 problems we can continue.
+If we don't have 0 problems we can do a ```sudo apt update``` and continue.
