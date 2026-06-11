@@ -51,6 +51,8 @@ Potential services include:
 - Adminer for MySQL / MariaDB as Database Management
 - Pi-hole Home as DNS
 - eZ Server Monitor as Monitoring & Status Pages
+- Dashy as Personal Dashboard
+- Jellyfin as Software Media System
 
 Phase 4 - Monitoring
 
