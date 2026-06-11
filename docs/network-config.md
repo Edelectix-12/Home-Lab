@@ -1,8 +1,6 @@
 # Network Configuration
 
-## Objective
-
-Configure network connectivity for the homelab server.
+Configuration of network connectivity for the homelab server.
 
 ---
 ## Network Information
