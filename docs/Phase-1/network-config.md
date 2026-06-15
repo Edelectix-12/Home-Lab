@@ -21,3 +21,8 @@ Configuration of network connectivity for the homelab server.
 ## Result
 
 Network connectivity successfully verified.
+
+## Here is the example i'm currently using:
+
+<img width="438" height="314" alt="image" src="https://github.com/user-attachments/assets/6a573cfa-1a1a-4010-8fe7-a73fbe998f7f" />
+
