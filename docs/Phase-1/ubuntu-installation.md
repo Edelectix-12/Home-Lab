@@ -11,7 +11,7 @@ Environment
 - Ubuntu Server LTS
 - 4 vCPU
 - 4 GB RAM
-- 40 GB Storage
+- 80 GB Storage
 
 Process
 --
