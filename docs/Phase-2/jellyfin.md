@@ -4,6 +4,18 @@
 
 Jellyfin is a Free Software Media System that puts you in control of managing and streaming your media. There are no strings attached, no premium licenses or features.
 
+## Preparation process
+
+I'm going to create a little structure, so i can have everything more organized:
+
+```mkdir -p ~/homelab/jellyfin```
+
+```cd ~/homelab/jellyfin```
+
+Now i'll create a compose with the follow content:
+
+```nano docker-compose.yml```
+
 ## Installation process
 
 We need to download and verify the script,  then execute it on your system (requires curl and sha256sum):
