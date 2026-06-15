@@ -29,16 +29,13 @@ Then we can instal it, i'm going to start with the last ```docker``` package wit
 
 ```sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin```
 
-The following steps will be, check the current version, set on the service and verify if it can do a hello-world with no problems
+The following steps will be, check the current status:
 
-To check the version we can use the command
+```sudo systemctl status docker```
 
-```docker --version```
+<img width="1263" height="405" alt="image" src="https://github.com/user-attachments/assets/3a7920a8-3154-4ef5-bc38-e6a371359a0f" />
 
-<img width="421" height="75" alt="image" src="https://github.com/user-attachments/assets/5742eb07-5ad7-4855-afca-f3fd55f2ad14" />
-
-
-To activate the service will do the following commands:
+To activate the service will do the following commands in case the program is not on-line:
 
 ```sudo systemctl enable docker``` and ```sudo systemctl start docker```
 
@@ -51,3 +48,5 @@ Now we can verify if it can runs a simple hello-world:
 We can see that if it doesn't find the image, it can search in the web to find it like in this example.
 
 If we don't have 0 problems we can do a ```sudo apt update``` and continue.
+
+Source: https://docs.docker.com/engine/install/ubuntu/
