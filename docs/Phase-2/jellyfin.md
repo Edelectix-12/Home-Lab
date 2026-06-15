@@ -16,6 +16,26 @@ Now i'll create a compose with the follow content:
 
 ```nano docker-compose.yml```
 
+```
+services:
+  jellyfin:
+    image: jellyfin/jellyfin
+
+    container_name: jellyfin
+
+    restart: unless-stopped
+
+    ports:
+      - "8096:8096"
+
+    volumes:
+      - ./config:/config
+      - ./cache:/cache
+      - ./media:/media
+
+    environment:
+      - TZ=Europe/Madrid
+```
 ## Installation process
 
 We need to download and verify the script,  then execute it on your system (requires curl and sha256sum):
