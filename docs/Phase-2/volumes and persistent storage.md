@@ -1,6 +1,5 @@
 # Introduction
 
-
 Im going to use a volume to storage content, and self-hosted applications,
 they are different from a normal bind mounts because of their dependency of the directory structure
 and the OS of the host machine.
@@ -41,9 +40,9 @@ And we can remove it if don't want it anymore with the command:
 
 ```docker volume rm homelab-data```
 
-## Start a container with a volume
+## Start and delete a container with a volume
 
-Let's create a test container:
+Let's create a TEST container:
 
 ```
 docker run -it --name volume-test \
@@ -67,5 +66,34 @@ To exit:
 
 ```exit```
 
-## Remove the container
+We created a finle INSIDE the mounted volume.
 
+We did a test, so to remove the previous operation, we need to write the next code:
+
+```docker rm volume-test```
+
+## Mount the same volume into a new container
+
+This test will be different because we will create in the same sentence a new file inside a new container in the same volume.
+
+To create the second container:
+
+```
+docker run -it --name volume-test-2 \
+  --mount source=homelab-data,target=/data \
+  ubuntu bash
+```
+
+To check:
+
+```cat /data/test.txt```
+
+<img width="475" height="126" alt="image" src="https://github.com/user-attachments/assets/e5ed0ebc-d535-40af-bff1-5c276f0b3341" />
+
+The file remained available after recreating the container.
+
+And we will delete it as well.
+
+```docker rm volume-test-2```
+
+With this we finish this apart.
