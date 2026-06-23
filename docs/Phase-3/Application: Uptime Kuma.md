@@ -110,3 +110,28 @@ The process is the same as before, just changing these parameters:
 I had some problems related with the URL, but now it's ok, to prevent errors, don't insert in the URL the IP of your machine, instead, type the name of the application followed by the port.
 
 <img width="2083" height="1144" alt="image" src="https://github.com/user-attachments/assets/63e1b3b9-dc92-45ed-b56a-29e12ed22d85" />
+
+## Add to Dashy Dashboard
+-
+
+We need to edit the file: ```~/homelab/dashy/user-data/conf.yml``` with ```sudo nano```
+
+And under the Jellyfin section we will add this, because it needs its own section:
+
+```
+sections:
+  - name: Monitoring
+    icon: fas fa-chart-line
+    items:
+      - title: Uptime Kuma
+        url: http://192.168.0.100:3001
+        icon: hl-uptime-kuma
+```
+
+<img width="722" height="330" alt="image" src="https://github.com/user-attachments/assets/c5679534-a27d-49e3-abf4-faa1a9ca4de5" />
+
+We will need to restart Dashy: ```sudo docker restart dashy```
+
+<img width="1060" height="312" alt="image" src="https://github.com/user-attachments/assets/fe15298d-8ee4-46a1-90e0-092b83421b55" />
+
+Application installation completed.
