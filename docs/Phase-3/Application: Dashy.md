@@ -118,4 +118,4 @@ To open it in my case, we go to the browser and type: ```http://192.168.0.100:80
 
 <img width="844" height="452" alt="image" src="https://github.com/user-attachments/assets/1f6ccf71-5f15-4fee-94bb-c53d3030980a" />
 
-We can see the jellyfin service, it was a success.
+We can see the jellyfin service, it was a success
