@@ -1,7 +1,7 @@
 # Uptime Kuma Deplyment
 
 ## Introduction and pre-sets
--
+
 
 Uptime Kuma is used to monitor the availability of homelab services and will allow us to prevent possible issues.
 
