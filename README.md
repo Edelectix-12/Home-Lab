@@ -50,7 +50,7 @@ Potential services include:
 
 - Adminer for MySQL / MariaDB as Database Management
 - Pi-hole Home as DNS
-- eZ Server Monitor as Monitoring & Status Pages
+- Uptime Kuma as Monitoring & Status Pages
 - Dashy as Personal Dashboard
 - Jellyfin as Software Media System
 
@@ -71,8 +71,10 @@ Each application will have its own documentation page describing:
 Current Status
 -
 
-🚧 Project Started
+Phase 1, 2 completed, the docker is running with no errors, everything can be checked in the doc.md file
 
-First milestone:
 
-Deploy and document an Ubuntu Server environment ready for Home Lab environment.
+Next Objective:
+-
+
+Continue with the Phase 3 to improve the docker applications.
