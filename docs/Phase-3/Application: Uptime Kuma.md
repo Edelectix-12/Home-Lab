@@ -18,7 +18,7 @@ Then we need to create the directory to save the persistent data
 ```mkdir data```
 
 ## Create Docker Compose
--
+
 
 Now that we are in the directory, we need to create the configuration file, following the official documentation that you can find in the official Uptime Kuma website.
 
