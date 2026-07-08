@@ -58,8 +58,9 @@ Phase 4 - Monitoring
 
 - Grafana
 - Prometheus
-- System monitoring
-- Service monitoring
+- Node Exporter
+- cAdvisor
+- Blackbox Exporter
 
 Each application will have its own documentation page describing:
 
