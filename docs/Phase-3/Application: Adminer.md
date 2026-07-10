@@ -1,4 +1,4 @@
-# Adminer Deplyment
+# Adminer Deployment
 
 ## Introduction and pre-sets
 
