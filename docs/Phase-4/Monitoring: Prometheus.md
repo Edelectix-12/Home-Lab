@@ -4,7 +4,7 @@
 
 Prometheus is an open-source monitoring system originally developed by SoundCloud. Its function is to collect metrics from servers, applications, and containers to monitor their health and performance.
 
-In this homelab, Prometheus will act as the core of the monitoring system. Later, it will gather information from services like Node Exporter, cAdvisor, and Grafana to display statistics for the server and Docker containers.
+In this homelab, Prometheus will act as the core of the monitoring system. Later, it will gather information from services like Glances, cAdvisor, and Grafana to display statistics for the server and Docker containers.
 
 ---
 
