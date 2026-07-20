@@ -58,7 +58,7 @@ Phase 4 - Monitoring
 
 - Grafana
 - Prometheus
-- Glances
+- Note-Exporter
 - cAdvisor
 - Blackbox Exporter
 
