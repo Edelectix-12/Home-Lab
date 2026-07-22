@@ -1,4 +1,4 @@
-# Adminer Deployment
+# Grafana Deployment
 
 ## Introduction
 
