@@ -118,3 +118,39 @@ Now we have full access to the service.
 
 ## Creation of a Backup
 
+To create an automated and encrypted backup job for the HomeLab volumes, follow these steps in the Duplicati Web UI:
+
+### Step 1: Add a New Backup Task
+1. From the main dashboard, click on **Add backup** or **Create +**.
+
+<img width="959" height="380" alt="image" src="https://github.com/user-attachments/assets/a44196e5-39f3-4276-b8cb-22f53d5d5c06" />
+
+3. Select **Configure a new backup** and click **Next**.
+
+<img width="323" height="391" alt="image" src="https://github.com/user-attachments/assets/15a85c34-c848-401b-a706-86ef32a27190" />
+
+4. Configure the **General Settings**:
+   * **Name:** `HomeLab-Volumes-Backup`
+   * **Encryption:** `AES-256 encryption, built-in`
+   * Set a strong passphrase for encrypting the backup files (or leave default if managed internally).
+
+<img width="450" height="637" alt="image" src="https://github.com/user-attachments/assets/8ddeb01b-8c75-49e2-90fc-82bf00979d93" />
+
+### Step 2: Select Source Data
+
+Selecting the source directory is enough, and click Continue.
+
+<img width="695" height="1263" alt="image" src="https://github.com/user-attachments/assets/6324dec2-dfb3-4676-86c0-8014ad361436" />
+
+### Step 3: Destination
+
+We will select among all the options, the File system one, to make it faster, you can type the name in the bar on top of all options:
+
+<img width="986" height="358" alt="image" src="https://github.com/user-attachments/assets/dda3e8dc-f3b5-45e7-9a2d-95f4fb92304c" />
+
+And we will select the ```/data``` file path:
+
+<img width="527" height="751" alt="image" src="https://github.com/user-attachments/assets/44058b13-41d2-445b-8750-9d9e53cff20e" />
+
+### Step 4: Schedule and Retention Options
+
