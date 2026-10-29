@@ -154,3 +154,24 @@ And we will select the ```/data``` file path:
 
 ### Step 4: Schedule and Retention Options
 
+We will select the Custom option, instead of the normal ones.
+
+1. Enable **Automatically run backups**.
+2. Set the frequency to **Every day** at `00:00`.
+
+<img width="586" height="761" alt="image" src="https://github.com/user-attachments/assets/92d0c649-b144-440e-972a-18520e6bcc13" />
+
+The last window, where you can make advanced options, we will not touch it, we are fine this way, click on Submit.
+
+After waiting a few seconds, we will get our personal backup for all of our services.
+
+<img width="1645" height="616" alt="image" src="https://github.com/user-attachments/assets/387699ce-774c-4864-853b-159f4125b7d3" />
+
+
+**Validation Result:**
+
+* The backup completed successfully.
+* AES-256 encrypted archive chunks were generated inside the `/data` directory.
+* Read-only access (`:ro`) was confirmed as Duplicati backed up all configuration files without modifying source data.
+
+<img width="879" height="212" alt="image" src="https://github.com/user-attachments/assets/4cdb2785-6211-4b87-b9ba-d2f333eacd81" />
