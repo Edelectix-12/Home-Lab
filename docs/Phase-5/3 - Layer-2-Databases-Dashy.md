@@ -100,11 +100,11 @@ Before continuing, we have now 2 MARIADB, ADMINER and DASHY with the same contai
 
 To prevent this, we need to stop the current services and remove them.
 
-This is save because all our data from MariaDB is in ```~/homelab/mariadb/data```.
+- This is save because all our data from MariaDB is in ```~/homelab/mariadb/data```.
 
-The data from Adminer doesn't save any data because is a web interface, it only connects with MariaDB.
+- The data from Adminer doesn't save any data because is a web interface, it only connects with MariaDB.
 
-The data from Dashy is saved in ```~/homelab/dashy/user-data```.
+- The data from Dashy is saved in ```~/homelab/dashy/user-data```.
 
 Now to stop and remove them we need to enter the next commands: ```sudo docker stop mariadb adminer dashy``` & ```sudo docker rm mariadb adminer dashy```
 
